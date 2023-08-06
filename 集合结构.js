@@ -15,7 +15,7 @@ class mySet{
 	}
 
 	has (element) {
-		return this.#set[element] === element
+		return element in this.#set
 	}
 
 	get data() {
